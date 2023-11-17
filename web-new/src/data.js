@@ -4,10 +4,7 @@ import {
   FaFolderOpen,
   FaBriefcase,
   FaGraduationCap,
-  FaCode,
 } from "react-icons/fa";
-
-import { FiFileText, FiUser } from "react-icons/fi";
 
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
