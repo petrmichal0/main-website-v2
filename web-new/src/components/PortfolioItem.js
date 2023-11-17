@@ -37,11 +37,21 @@ function PortfolioItem({
             <h4 className="modal__text">{text}</h4>
 
             <div className="modal__item">
-              <a href={linkGlobe} target="_blank" rel="noreferrer">
+              <a
+                className="item__link"
+                href={linkGlobe}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <span className="item__icon">{iconGlobe}</span>
               </a>
 
-              <a href={linkGitHub} target="_blank" rel="noreferrer">
+              <a
+                className="item__link"
+                href={linkGitHub}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <span className="item__icon">{iconGitHub}</span>
               </a>
             </div>

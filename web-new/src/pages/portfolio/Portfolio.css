@@ -77,13 +77,13 @@
   margin-bottom: 24px;
 }
 
-a:link,
-a:visited {
+.item__link:link,
+.item__link:visited {
   color: var(--text-white);
 }
 
-a:hover,
-a:active {
+.item__link:hover,
+.item__link:active {
   color: var(--first-color);
 }
 
