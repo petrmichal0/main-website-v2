@@ -2,7 +2,15 @@ import { useState } from "react";
 
 import close from "../assets/close.png";
 
-function PortfolioItem({ img, title, details }) {
+function PortfolioItem({
+  img,
+  title,
+  text,
+  iconGitHub,
+  linkGitHub,
+  iconGlobe,
+  linkGlobe,
+}) {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -26,19 +34,17 @@ function PortfolioItem({ img, title, details }) {
               onClick={toggleModal}
             />
             <h3 className="modal__title">{title}</h3>
-            <ul className="modal__list grid">
-              {details.map(({ icon, title, desc }, index) => {
-                return (
-                  <li className="modal__item" key={index}>
-                    <span className="item__icon">{icon}</span>
-                    <div>
-                      <span className="item__title">{title}</span>
-                      <span className="item__details">{desc}</span>
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
+            <h4 className="modal__text">{text}</h4>
+
+            <div className="modal__item">
+              <a href={linkGlobe} target="_blank" rel="noreferrer">
+                <span className="item__icon">{iconGlobe}</span>
+              </a>
+
+              <a href={linkGitHub} target="_blank" rel="noreferrer">
+                <span className="item__icon">{iconGitHub}</span>
+              </a>
+            </div>
 
             <img src={img} alt="" className="modal__img" />
           </div>

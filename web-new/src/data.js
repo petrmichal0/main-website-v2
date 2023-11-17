@@ -9,7 +9,17 @@ import {
 
 import { FiFileText, FiUser } from "react-icons/fi";
 
-import Work1 from "./assets/symbol.jpg";
+import { BsGithub } from "react-icons/bs";
+import { FaGlobe } from "react-icons/fa";
+
+import Work1 from "./assets/11.png";
+import Work2 from "./assets/22.png";
+import Work3 from "./assets/33.png";
+import Work4 from "./assets/44.png";
+import Work5 from "./assets/55.png";
+import Work6 from "./assets/66.png";
+import Work7 from "./assets/77.png";
+import Work8 from "./assets/88.png";
 
 import Theme1 from "./assets/1.png";
 import Theme2 from "./assets/2.png";
@@ -215,134 +225,82 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Photo Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language",
-        desc: "Adobe Photoshop",
-      },
-    ],
+    title: "Eat Split",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/Eat-split.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://billsplitfriends.netlify.app/",
   },
   {
     id: 2,
-    img: Work1,
-    title: "Website design",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language",
-        desc: "Adobe Photoshop",
-      },
-    ],
+    img: Work2,
+    title: "Calculater",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/Calculater_.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://calculater-v1.netlify.app",
   },
   {
     id: 3,
-    img: Work1,
-    title: "Testing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language",
-        desc: "Adobe Photoshop",
-      },
-    ],
+    img: Work3,
+    title: "Movies",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/Movies.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://v1-movies.netlify.app/",
   },
   {
     id: 4,
-    img: Work1,
-    title: "Video Editing",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language",
-        desc: "Adobe Photoshop",
-      },
-    ],
+    img: Work4,
+    title: "Flash cards",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/FlashCard.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://flashcards-v1.netlify.app",
   },
   {
     id: 5,
-    img: Work1,
-    title: "Landing Page",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language",
-        desc: "Adobe Photoshop",
-      },
-    ],
+    img: Work5,
+    title: "Traveling",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/Traveling.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://travelinglist.netlify.app",
   },
   {
     id: 6,
-    img: Work1,
-    title: "Landing Page 2",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "Project",
-        desc: "Photo",
-      },
-      {
-        icon: <FiUser />,
-        title: "Client",
-        desc: "Dribble",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language",
-        desc: "Adobe Photoshop",
-      },
-    ],
+    img: Work6,
+    title: "Tic tac toe",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/Tic_tac_toe.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://tic-tac-toe-v11.netlify.app",
+  },
+  {
+    id: 7,
+    img: Work7,
+    title: "Magic cards",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/memory_cards.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://memory-cards-v1.netlify.app",
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: "Quiz",
+    text: "lorem dsjf hdsj fldsj fkdsj kfdsj fkdjs kf dsk fjsdklf j dsfd fds d gfdgj kjsfdg djlkg jdfgj ",
+    iconGitHub: <BsGithub />,
+    linkGitHub: "https://github.com/petrmichal0/Quiz_final.git",
+    iconGlobe: <FaGlobe />,
+    linkGlobe: "https://v1-quiz.netlify.app",
   },
 ];
 
