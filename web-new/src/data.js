@@ -165,7 +165,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
   {
@@ -173,7 +173,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
   {
@@ -181,7 +181,7 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
   {
@@ -189,7 +189,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
   {
@@ -197,7 +197,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
   {
@@ -205,7 +205,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
   {
@@ -213,7 +213,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2018 - PRESENT",
-    title: "Web Developer <span>Envato</span>",
+    title: "Web Developer",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem rem odio ab vel quis placeat, consectetur similique delectus. Adipisci, nisi?",
   },
 ];
