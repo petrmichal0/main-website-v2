@@ -59,10 +59,6 @@ After starting, go to [http://localhost:5174](http://localhost:5174) in your web
 
 ## Screenshots
 
-*To be updated with relevant screenshots*
-
-## Screenshots
-
 <table>
   <tr>
     <th>Homepage</th>
