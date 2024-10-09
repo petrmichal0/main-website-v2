@@ -1,70 +1,174 @@
-# Getting Started with Create React App
+# Main Website v2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Title and Description
+Main Website v2 is a portfolio web application that showcases projects, skills, and personal information using modern technologies such as React and Vite.
 
-## Available Scripts
+## Badges
+![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
-In the project directory, you can run:
+## Quick Look
+*To be updated with relevant image links*
 
-### `npm start`
+## Table of Content
+- [Project Title and Description](#project-title-and-description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Third-Party Libraries](#third-party-libraries)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Animated UI using CSS.
+- Responsive design for mobile and desktop.
+- Showcase of projects with details.
+- Theme toggler with multiple color themes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+### Prerequisites
+- **Node.js**: v20.x
+- **npm**: v10.x
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Steps
 
-### `npm run build`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/petrmichal0/main-website-v2.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+    ```bash
+    cd web-new
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+To start the application, run the following command:
+```bash
+npm run dev
+```
 
-### `npm run eject`
+After starting, go to [http://localhost:5174](http://localhost:5174) in your web browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+*To be updated with relevant screenshots*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<table>
+  <tr>
+    <th>Homepage</th>
+    <th>About</th>
+    <th>Technologies</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/2d360bc8-d14d-4d2a-8b2a-30d3786a1363" target="_blank">
+        <img src="https://github.com/user-attachments/assets/2d360bc8-d14d-4d2a-8b2a-30d3786a1363" width="300" height="300" alt="Homepage">
+      </a>
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/4b273dfc-95e0-499a-9f60-75c6d49f24ca" target="_blank">
+        <img src="https://github.com/user-attachments/assets/4b273dfc-95e0-499a-9f60-75c6d49f24ca" width="300" height="300" alt="About">
+      </a>
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/67cd1c5d-72a7-4ee9-8416-b0b8fce89db9" target="_blank">
+        <img src="https://github.com/user-attachments/assets/67cd1c5d-72a7-4ee9-8416-b0b8fce89db9" width="300" height="300" alt="Technologies">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Experience</th>
+    <th>Courses</th>
+    <th>Forgot Password</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/45719f1c-341e-4a21-987c-ebf5e1c02aec" target="_blank">
+        <img src="https://github.com/user-attachments/assets/45719f1c-341e-4a21-987c-ebf5e1c02aec" width="300" height="300" alt="Experience">
+      </a>
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/8d8c6bcd-07a7-4832-a31c-cdbe09d88c2a" target="_blank">
+        <img src="https://github.com/user-attachments/assets/8d8c6bcd-07a7-4832-a31c-cdbe09d88c2a" width="300" height="300" alt="Courses">
+      </a>
+    </td>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/1a33df49-2968-4d7e-9893-08636e3545a2" target="_blank">
+        <img src="https://github.com/user-attachments/assets/1a33df49-2968-4d7e-9893-08636e3545a2" width="300" height="300" alt="Forgot Password">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th>Contact</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; width: 310px; height: 310px; text-align: center;">
+      <a href="https://github.com/user-attachments/assets/fb708f1b-436a-4d88-bd60-9696d2a20c12" target="_blank">
+        <img src="https://github.com/user-attachments/assets/fb708f1b-436a-4d88-bd60-9696d2a20c12" width="300" height="300" alt="Contact">
+      </a>
+    </td>
+  </tr>
+</table>
 
-## Learn More
+## Demo (link)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Check out the live demo of the application [here](https://web-final-v1.netlify.app/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```css
+web-new/
+├── public/
+│   ├── favicon.ico
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   ├── robots.txt
+├── src/
+│   ├── assets/
+│   │   ├── <project-assets>
+│   ├── components/
+│   │   ├── Info.jsx
+│   │   ├── NavBar.jsx
+│   │   ├── PortfolioItem.jsx
+│   │   ├── ResumeItem.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Stats.jsx
+│   │   ├── ThemeItem.jsx
+│   │   ├── Themes.jsx
+│   ├── pages/
+│   │   ├── about/About.jsx
+│   │   ├── home/Home.jsx
+│   │   ├── portfolio/Portfolio.jsx
+│   ├── App.jsx
+│   ├── data.jsx
+│   ├── index.css
+│   ├── index.html
+│   ├── main.jsx
+├── .gitignore
+├── README.md
+├── package.json
+├── package-lock.json
+├── vite.config.mjs
+```
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#)
+[![Vite Badge](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&labelColor=black&logo=vite&logoColor=646CFF)](#)
 
-### Analyzing the Bundle Size
+## Third-Party Libraries
+- **React Icons**: Provides icons used in the application.
+- **React Circular Progressbar**: Used to create progress bar components.
+- **React Router Dom**: Handles the routing for different pages in the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
