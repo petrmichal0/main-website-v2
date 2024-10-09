@@ -127,7 +127,7 @@ Check out the live demo of the application [here](https://web-final-v1.netlify.a
 ## Project Structure
 
 ```css
-web-new/
+main-website-v2/
 ├── public/
 │   ├── favicon.ico
 │   ├── logo192.png
