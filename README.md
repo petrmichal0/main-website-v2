@@ -124,6 +124,8 @@ After starting, go to [http://localhost:5174](http://localhost:5174) in your web
 
 Check out the live demo of the application [here](https://web-final-v1.netlify.app/).
 
+## Project Structure
+
 ```css
 web-new/
 ├── public/
