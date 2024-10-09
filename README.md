@@ -7,7 +7,7 @@ Main Website v2 is a portfolio web application that showcases projects, skills, 
 ![Static Badge](https://img.shields.io/badge/status-online-brightgreen)
 
 ## Quick Look
-*To be updated with relevant image links*
+<img src="https://github.com/user-attachments/assets/2c6234ce-bd68-428d-9426-426668847d74" width="700" alt="Pizza App Demo">
 
 ## Table of Content
 - [Project Title and Description](#project-title-and-description)
